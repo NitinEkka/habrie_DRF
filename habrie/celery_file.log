@@ -1,0 +1,206 @@
+[2023-07-17 19:10:22,605: WARNING/MainProcess] /home/nitin/.local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_TIMEZONE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the timezone instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-07-17 19:10:22,605: WARNING/MainProcess] /home/nitin/.local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_ACCEPT_CONTENT' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the accept_content instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-07-17 19:10:22,605: WARNING/MainProcess] /home/nitin/.local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-07-17 19:10:22,605: WARNING/MainProcess] /home/nitin/.local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_SERIALIZER' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_serializer instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-07-17 19:10:22,605: WARNING/MainProcess] /home/nitin/.local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_TASK_SERIALIZER' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_serializer instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-07-17 19:10:22,605: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-07-17 19:10:23,256: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2023-07-17 19:10:23,258: INFO/MainProcess] mingle: searching for neighbors
+[2023-07-17 19:10:24,267: INFO/MainProcess] mingle: all alone
+[2023-07-17 19:10:24,304: WARNING/MainProcess] /home/nitin/.local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-07-17 19:10:24,304: INFO/MainProcess] celery@nitin-VivoBook-ASUSLaptop-X421FL-S433FL ready.
+[2023-07-17 19:11:12,545: INFO/MainProcess] Task habrieapp.tasks.send_templated_email[24a7852c-fee6-479e-8741-339f3806bdce] received
+[2023-07-17 19:11:12,551: INFO/MainProcess] Task habrieapp.tasks.csv_upload[61c1c79c-1c39-4959-97cc-95a0bf82b70b] received
+[2023-07-17 19:11:12,628: INFO/ForkPoolWorker-8] Task habrieapp.tasks.csv_upload[61c1c79c-1c39-4959-97cc-95a0bf82b70b] succeeded in 0.07497986800444778s: 'DONE'
+[2023-07-17 19:11:20,670: INFO/ForkPoolWorker-7] Task habrieapp.tasks.send_templated_email[24a7852c-fee6-479e-8741-339f3806bdce] succeeded in 8.116643768000358s: None
+[2023-07-18 05:37:41,569: WARNING/MainProcess] /home/nitin/.local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-07-18 05:37:41,570: WARNING/MainProcess] /home/nitin/.local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_TASK_SERIALIZER' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_serializer instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-07-18 05:37:41,570: WARNING/MainProcess] /home/nitin/.local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_SERIALIZER' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_serializer instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-07-18 05:37:41,570: WARNING/MainProcess] /home/nitin/.local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_ACCEPT_CONTENT' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the accept_content instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-07-18 05:37:41,570: WARNING/MainProcess] /home/nitin/.local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_TIMEZONE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the timezone instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-07-18 05:37:41,570: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-07-18 05:37:42,407: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2023-07-18 05:37:42,409: INFO/MainProcess] mingle: searching for neighbors
+[2023-07-18 05:37:43,417: INFO/MainProcess] mingle: all alone
+[2023-07-18 05:37:43,438: WARNING/MainProcess] /home/nitin/.local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-07-18 05:37:43,438: INFO/MainProcess] celery@nitin-VivoBook-ASUSLaptop-X421FL-S433FL ready.
+[2023-07-18 05:37:43,457: INFO/MainProcess] Task habrieapp.tasks.send_templated_email[b1ddd1e7-a0d4-499a-8ef9-9fe7a6704ed9] received
+[2023-07-18 05:37:43,459: INFO/MainProcess] Task habrieapp.tasks.csv_upload[a658291c-243a-487d-9e5e-2ff4472cc05e] received
+[2023-07-18 05:37:43,491: INFO/ForkPoolWorker-8] Task habrieapp.tasks.csv_upload[a658291c-243a-487d-9e5e-2ff4472cc05e] succeeded in 0.03103417299996636s: 'DONE'
+[2023-07-18 05:37:52,561: INFO/ForkPoolWorker-7] Task habrieapp.tasks.send_templated_email[b1ddd1e7-a0d4-499a-8ef9-9fe7a6704ed9] succeeded in 9.10243148699999s: None
+[2023-07-18 05:38:37,073: INFO/MainProcess] Task habrieapp.tasks.send_templated_email[0aca9e0f-a530-4bc0-9510-5fa6aabbc93c] received
+[2023-07-18 05:38:37,077: INFO/MainProcess] Task habrieapp.tasks.csv_upload[250990a3-e60e-4a1f-a1d7-52a241bb9d17] received
+[2023-07-18 05:38:37,115: INFO/ForkPoolWorker-8] Task habrieapp.tasks.csv_upload[250990a3-e60e-4a1f-a1d7-52a241bb9d17] succeeded in 0.03663593299995682s: 'DONE'
+[2023-07-18 05:38:45,365: INFO/ForkPoolWorker-7] Task habrieapp.tasks.send_templated_email[0aca9e0f-a530-4bc0-9510-5fa6aabbc93c] succeeded in 8.291173558999958s: None
+[2023-07-18 05:42:22,153: INFO/MainProcess] Task habrieapp.tasks.send_templated_email[7e4c5a7a-e1da-4a20-b4a0-2965b844c099] received
+[2023-07-18 05:42:22,158: INFO/MainProcess] Task habrieapp.tasks.csv_upload[99c18bc1-396d-4aad-9e31-a5e75067720a] received
+[2023-07-18 05:42:22,201: INFO/ForkPoolWorker-8] Task habrieapp.tasks.csv_upload[99c18bc1-396d-4aad-9e31-a5e75067720a] succeeded in 0.04226916799996161s: 'DONE'
+[2023-07-18 05:42:22,211: ERROR/ForkPoolWorker-7] Task habrieapp.tasks.send_templated_email[7e4c5a7a-e1da-4a20-b4a0-2965b844c099] raised unexpected: gaierror(-3, 'Temporary failure in name resolution')
+Traceback (most recent call last):
+  File "/home/nitin/.local/lib/python3.10/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/nitin/.local/lib/python3.10/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/nitin/Desktop/Habrie_drf/habrie/habrieapp/tasks.py", line 117, in send_templated_email
+    raise e
+  File "/home/nitin/Desktop/Habrie_drf/habrie/habrieapp/tasks.py", line 109, in send_templated_email
+    email_student.send()
+  File "/home/nitin/.local/lib/python3.10/site-packages/django/core/mail/message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/nitin/.local/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 124, in send_messages
+    new_conn_created = self.open()
+  File "/home/nitin/.local/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 80, in open
+    self.connection = self.connection_class(
+  File "/usr/lib/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+[2023-07-18 05:51:22,822: INFO/MainProcess] Task habrieapp.tasks.send_templated_email[3b97caf0-0cd7-4728-90f1-7306a5d2255a] received
+[2023-07-18 05:51:22,828: INFO/MainProcess] Task habrieapp.tasks.csv_upload[d4f45e3c-7c03-41ed-a892-6b41f02db772] received
+[2023-07-18 05:51:22,892: INFO/ForkPoolWorker-8] Task habrieapp.tasks.csv_upload[d4f45e3c-7c03-41ed-a892-6b41f02db772] succeeded in 0.06256278199998633s: 'DONE'
+[2023-07-18 05:51:31,383: INFO/ForkPoolWorker-7] Task habrieapp.tasks.send_templated_email[3b97caf0-0cd7-4728-90f1-7306a5d2255a] succeeded in 8.56047437799998s: None
+[2023-07-18 05:54:49,077: INFO/MainProcess] Task habrieapp.tasks.send_templated_email[da5d27ea-ff38-4a8a-a1e9-242034a7e6ba] received
+[2023-07-18 05:54:49,082: INFO/MainProcess] Task habrieapp.tasks.csv_upload[b6d7981d-8153-44d0-8aa6-c075b53dc727] received
+[2023-07-18 05:54:49,132: INFO/ForkPoolWorker-8] Task habrieapp.tasks.csv_upload[b6d7981d-8153-44d0-8aa6-c075b53dc727] succeeded in 0.048848958999997194s: 'DONE'
+[2023-07-18 05:54:57,298: INFO/ForkPoolWorker-7] Task habrieapp.tasks.send_templated_email[da5d27ea-ff38-4a8a-a1e9-242034a7e6ba] succeeded in 8.221025280999811s: None
+[2023-07-18 05:58:05,765: INFO/MainProcess] Task habrieapp.tasks.send_templated_email[4fcdf9b9-2e07-4b95-9435-f7d95af72ae4] received
+[2023-07-18 05:58:05,771: INFO/MainProcess] Task habrieapp.tasks.csv_upload[22309f37-b97c-4d83-8449-88a746244c55] received
+[2023-07-18 05:58:05,822: INFO/ForkPoolWorker-8] Task habrieapp.tasks.csv_upload[22309f37-b97c-4d83-8449-88a746244c55] succeeded in 0.04991660399991815s: 'DONE'
+[2023-07-18 05:58:16,206: INFO/ForkPoolWorker-7] Task habrieapp.tasks.send_templated_email[4fcdf9b9-2e07-4b95-9435-f7d95af72ae4] succeeded in 10.439670596000042s: None
+[2023-07-18 06:00:50,459: INFO/MainProcess] Task habrieapp.tasks.send_templated_email[9551c7c1-0984-4be9-b624-076a8a0a59ed] received
+[2023-07-18 06:00:50,464: INFO/MainProcess] Task habrieapp.tasks.csv_upload[fac3b057-05c2-4abe-9315-4f30f5b5c17e] received
+[2023-07-18 06:00:50,520: INFO/ForkPoolWorker-8] Task habrieapp.tasks.csv_upload[fac3b057-05c2-4abe-9315-4f30f5b5c17e] succeeded in 0.05483307400004378s: 'DONE'
+[2023-07-18 06:00:59,330: INFO/ForkPoolWorker-7] Task habrieapp.tasks.send_templated_email[9551c7c1-0984-4be9-b624-076a8a0a59ed] succeeded in 8.871024069999976s: None
+[2023-07-18 06:02:27,864: INFO/MainProcess] Task habrieapp.tasks.send_templated_email[ed1ba8b3-d2a2-46f0-b968-26cd063c5c04] received
+[2023-07-18 06:02:27,870: INFO/MainProcess] Task habrieapp.tasks.csv_upload[af269c96-6ebd-40f3-9eb9-d3b47b3ebd07] received
+[2023-07-18 06:02:27,925: INFO/ForkPoolWorker-8] Task habrieapp.tasks.csv_upload[af269c96-6ebd-40f3-9eb9-d3b47b3ebd07] succeeded in 0.05442239299964058s: 'DONE'
+[2023-07-18 06:02:36,543: INFO/ForkPoolWorker-7] Task habrieapp.tasks.send_templated_email[ed1ba8b3-d2a2-46f0-b968-26cd063c5c04] succeeded in 8.67787172699991s: None
+[2023-07-18 06:04:16,669: INFO/MainProcess] Task habrieapp.tasks.send_templated_email[18ece580-72b8-41df-96c3-03183fff568a] received
+[2023-07-18 06:04:16,676: INFO/MainProcess] Task habrieapp.tasks.csv_upload[3be908c0-b169-46fd-8c3d-216100d73fc1] received
+[2023-07-18 06:04:16,744: INFO/ForkPoolWorker-8] Task habrieapp.tasks.csv_upload[3be908c0-b169-46fd-8c3d-216100d73fc1] succeeded in 0.06731013199987501s: 'DONE'
+[2023-07-18 06:04:34,885: INFO/ForkPoolWorker-7] Task habrieapp.tasks.send_templated_email[18ece580-72b8-41df-96c3-03183fff568a] succeeded in 18.215228270000352s: None
+[2023-07-18 06:06:37,608: INFO/MainProcess] Task habrieapp.tasks.send_templated_email[98364379-fa94-4dfd-86e4-8088f9111094] received
+[2023-07-18 06:06:37,613: INFO/MainProcess] Task habrieapp.tasks.csv_upload[86648d98-ba38-4dde-a3bc-aab52164ed3d] received
+[2023-07-18 06:06:37,677: INFO/ForkPoolWorker-8] Task habrieapp.tasks.csv_upload[86648d98-ba38-4dde-a3bc-aab52164ed3d] succeeded in 0.06338769900003172s: 'DONE'
+[2023-07-18 06:06:45,765: INFO/ForkPoolWorker-7] Task habrieapp.tasks.send_templated_email[98364379-fa94-4dfd-86e4-8088f9111094] succeeded in 8.15643929099997s: None
+[2023-07-18 06:10:21,160: INFO/MainProcess] Task habrieapp.tasks.send_templated_email[c219d82a-96be-434d-8ef4-95178c11c43d] received
+[2023-07-18 06:10:21,167: INFO/MainProcess] Task habrieapp.tasks.csv_upload[6b9f9922-8fd6-407b-8f01-5e35e88a9035] received
+[2023-07-18 06:10:21,233: INFO/ForkPoolWorker-8] Task habrieapp.tasks.csv_upload[6b9f9922-8fd6-407b-8f01-5e35e88a9035] succeeded in 0.06480789499983075s: 'DONE'
+[2023-07-18 06:10:29,437: INFO/ForkPoolWorker-7] Task habrieapp.tasks.send_templated_email[c219d82a-96be-434d-8ef4-95178c11c43d] succeeded in 8.275730042000305s: None
+[2023-07-18 06:11:57,299: INFO/MainProcess] Task habrieapp.tasks.send_templated_email[ac623ce0-3cf1-4e9a-869c-5e1defed7442] received
+[2023-07-18 06:11:57,303: INFO/MainProcess] Task habrieapp.tasks.csv_upload[1341c2ea-16b6-493b-a5a8-169c4c9f267b] received
+[2023-07-18 06:11:57,315: ERROR/ForkPoolWorker-8] Task habrieapp.tasks.csv_upload[1341c2ea-16b6-493b-a5a8-169c4c9f267b] raised unexpected: DoesNotExist('Csv matching query does not exist.')
+Traceback (most recent call last):
+  File "/home/nitin/.local/lib/python3.10/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/nitin/.local/lib/python3.10/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/nitin/Desktop/Habrie_drf/habrie/habrieapp/tasks.py", line 94, in csv_upload
+    #         raise e
+  File "/home/nitin/Desktop/Habrie_drf/habrie/habrieapp/tasks.py", line 16, in csv_upload
+    #         obj = Csv.objects.get(activated=False)
+  File "/home/nitin/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/nitin/.local/lib/python3.10/site-packages/django/db/models/query.py", line 650, in get
+    raise self.model.DoesNotExist(
+habrieapp.models.Csv.DoesNotExist: Csv matching query does not exist.
+[2023-07-18 06:12:06,714: INFO/ForkPoolWorker-7] Task habrieapp.tasks.send_templated_email[ac623ce0-3cf1-4e9a-869c-5e1defed7442] succeeded in 9.413856770000166s: None
+[2023-07-18 06:13:11,712: INFO/MainProcess] Task habrieapp.tasks.csv_upload[51f7ecdb-8702-4152-ad05-6ada805e9c8e] received
+[2023-07-18 06:13:11,727: ERROR/ForkPoolWorker-7] Task habrieapp.tasks.csv_upload[51f7ecdb-8702-4152-ad05-6ada805e9c8e] raised unexpected: DoesNotExist('Csv matching query does not exist.')
+Traceback (most recent call last):
+  File "/home/nitin/.local/lib/python3.10/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/nitin/.local/lib/python3.10/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/nitin/Desktop/Habrie_drf/habrie/habrieapp/tasks.py", line 94, in csv_upload
+    #         raise e
+  File "/home/nitin/Desktop/Habrie_drf/habrie/habrieapp/tasks.py", line 16, in csv_upload
+    #         obj = Csv.objects.get(activated=False)
+  File "/home/nitin/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/nitin/.local/lib/python3.10/site-packages/django/db/models/query.py", line 650, in get
+    raise self.model.DoesNotExist(
+habrieapp.models.Csv.DoesNotExist: Csv matching query does not exist.
+[2023-07-18 06:16:20,244: INFO/MainProcess] Task habrieapp.tasks.send_templated_email[25197eb0-b7dd-471e-86cd-b8807b191207] received
+[2023-07-18 06:16:20,250: INFO/MainProcess] Task habrieapp.tasks.csv_upload[25dafcde-129e-4a5d-95b2-03329e2cca6c] received
+[2023-07-18 06:16:20,306: INFO/ForkPoolWorker-8] Task habrieapp.tasks.csv_upload[25dafcde-129e-4a5d-95b2-03329e2cca6c] succeeded in 0.05459219700014728s: 'DONE'
+[2023-07-18 06:16:28,716: INFO/ForkPoolWorker-7] Task habrieapp.tasks.send_templated_email[25197eb0-b7dd-471e-86cd-b8807b191207] succeeded in 8.470952140999998s: None
+[2023-07-18 06:23:56,563: INFO/MainProcess] Task habrieapp.tasks.send_templated_email[aa696fe1-97cd-41b0-9147-557595ec43e7] received
+[2023-07-18 06:23:56,568: INFO/MainProcess] Task habrieapp.tasks.csv_upload[a58503b0-b332-4765-b4fd-82578d665b86] received
+[2023-07-18 06:23:56,632: INFO/ForkPoolWorker-8] Task habrieapp.tasks.csv_upload[a58503b0-b332-4765-b4fd-82578d665b86] succeeded in 0.06248375799987116s: 'DONE'
+[2023-07-18 06:24:05,265: INFO/ForkPoolWorker-7] Task habrieapp.tasks.send_templated_email[aa696fe1-97cd-41b0-9147-557595ec43e7] succeeded in 8.700699586000155s: None
+[2023-07-18 06:25:54,583: INFO/MainProcess] Task habrieapp.tasks.send_templated_email[09f5c8e8-aeff-4888-ab37-38807d9d77e4] received
+[2023-07-18 06:25:54,589: INFO/MainProcess] Task habrieapp.tasks.csv_upload[858bd40a-fd4b-43cc-aeff-0b9af6817697] received
+[2023-07-18 06:25:54,660: INFO/ForkPoolWorker-8] Task habrieapp.tasks.csv_upload[858bd40a-fd4b-43cc-aeff-0b9af6817697] succeeded in 0.06928583699982482s: 'DONE'
+[2023-07-18 06:26:02,508: INFO/ForkPoolWorker-7] Task habrieapp.tasks.send_templated_email[09f5c8e8-aeff-4888-ab37-38807d9d77e4] succeeded in 7.924341757000093s: None
+[2023-07-18 06:36:56,570: INFO/MainProcess] Task habrieapp.tasks.send_templated_email[668a02a2-c448-4a8b-a32a-61ec557008da] received
+[2023-07-18 06:36:56,575: INFO/MainProcess] Task habrieapp.tasks.csv_upload[f2868958-0b33-4499-9add-c12309df2482] received
+[2023-07-18 06:36:56,723: INFO/ForkPoolWorker-8] Task habrieapp.tasks.csv_upload[f2868958-0b33-4499-9add-c12309df2482] succeeded in 0.13978039599987824s: 'DONE'
+[2023-07-18 06:37:07,900: INFO/ForkPoolWorker-7] Task habrieapp.tasks.send_templated_email[668a02a2-c448-4a8b-a32a-61ec557008da] succeeded in 11.329538309000782s: None
+[2023-07-18 06:38:17,488: INFO/MainProcess] Task habrieapp.tasks.send_templated_email[2db8b90c-e080-43d1-a27f-892739f9cb40] received
+[2023-07-18 06:38:17,495: INFO/MainProcess] Task habrieapp.tasks.csv_upload[d799f117-956d-4316-96b4-da3b922c7db6] received
+[2023-07-18 06:38:17,592: INFO/ForkPoolWorker-8] Task habrieapp.tasks.csv_upload[d799f117-956d-4316-96b4-da3b922c7db6] succeeded in 0.09631117999924754s: 'DONE'
+[2023-07-18 06:38:28,687: INFO/ForkPoolWorker-7] Task habrieapp.tasks.send_templated_email[2db8b90c-e080-43d1-a27f-892739f9cb40] succeeded in 11.197448734999853s: None

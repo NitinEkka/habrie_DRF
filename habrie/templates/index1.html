@@ -1,0 +1,45 @@
+{% load rest_framework %}
+
+{% block content %}
+  <h1>Create Student</h1>
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {% render_form student_serializer %}
+
+    <h2>Parent Information</h2>
+    <table>
+      {% for field in parent_form %}
+      <tr>
+        <td>
+          {{ field.label_tag }}
+          {{ field }}
+          {{ field.errors }}
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+
+    <h2>Academic Details</h2>
+    <table>
+      {% for field in academic_form %}
+      <tr>
+        <td>
+          {{ field.label_tag }}
+          {{ field }}
+          {{ field.errors }}
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+
+    <h2>Bulk Import</h2>
+    <table>
+      <tr>
+        {% csrf_token %}
+        {{ upload_form }}
+      </tr>
+    </table>
+
+    <button type="submit">Submit</button>
+  </form>
+{% endblock %}
